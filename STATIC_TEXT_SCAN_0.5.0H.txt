@@ -1,4 +1,0 @@
-Static text scan 0.5.0H
-User-visible app/source hits for internal labels:
-
-No primary Copy Details/Copy Diagnostics path remains.
