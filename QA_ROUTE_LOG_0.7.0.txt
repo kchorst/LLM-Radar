@@ -1,0 +1,13 @@
+QA ROUTE LOG 0.7.0
+Generated: 2026-06-30T14:04:09Z
+Mode: no Local AI available in container; /pair 503 is expected in this condition.
+BASE=http://172.26.36.33:49321
+/reachability 200 225
+/ 200 5731
+/pair 503 1912
+/recheck?format=json 200 2006
+/rag/upload-check 200 443
+/rag/upload-test 200 444
+/rag/sample 200 295
+/rag/status 200 295
+/diagnostics/document.json 200 1207

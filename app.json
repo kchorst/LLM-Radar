@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "LLM Radar",
+    "slug": "llm-radar",
+    "scheme": "llmradar",
+    "version": "0.7.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0B0F14",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.udona4567.llmradar"
+    },
+    "android": {
+      "package": "com.udona4567.llmradar",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.CAMERA"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B0F14"
+      },
+      "versionCode": 70,
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow LLM Radar to scan local AI pairing QR codes.",
+          "recordAudioAndroid": false,
+          "barcodeScannerEnabled": true
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8928892d-3dd8-481c-8888-82d85dda5574"
+      }
+    },
+    "owner": "kchorst",
+    "description": "Phone-first local AI proof with 0.7.0 UI polish, refresh-first recovery, and QR reconnect guidance for sample text transfer."
+  }
+}

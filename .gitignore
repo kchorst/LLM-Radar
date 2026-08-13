@@ -1,0 +1,126 @@
+# --- Core Node / Expo / React Native ---
+node_modules/
+.expo/
+.expo-shared/
+.expo/*
+.expo/*/*
+.expo/*/*/*
+.expo/*/*/*/*
+
+# Metro / Bundler / Cache
+.expo/web/cache/
+.expo/web/dist/
+.expo/web/debug/
+.expo/web/temp/
+.expo/web/*.js
+.expo/web/*.map
+.expo/web/*.html
+.expo/web/*.css
+
+# React Native / iOS / Android build outputs
+android/
+ios/
+build/
+dist/
+.gradle/
+local.properties
+*.iml
+
+# Expo CLI / Devtools / Cache
+.expo/
+.expo/*/
+.expo/*/*/
+.expo/*/*/*/
+.expo/*/*/*/*/
+.expo/*/*/*/*/*
+
+# Webpack / Babel / Terser / Metro transforms
+**/metro-cache/
+**/metro-cache-key/
+**/metro-minify-terser/
+**/metro-transform-worker/
+**/metro-transform-plugins/
+**/metro-runtime/
+**/metro-source-map/
+**/metro-symbolicate/
+**/metro-config/
+**/metro-babel-transformer/
+
+# Jest / Istanbul / Coverage
+coverage/
+.nyc_output/
+**/__tests__/
+**/__mocks__/
+**/jest-cache/
+**/jest-temp/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-debug.log
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / Secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+
+# Cache directories
+.cache/
+.expo-cache/
+.expo-go/
+tmp/
+temp/
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.xcconfig
+*.keystore
+
+# TypeScript
+*.tsbuildinfo
+
+# Lockfiles (keep only the one you use)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Root Markdown Cleanup ---
+# Keep only README.md, LICENSE, USERGUIDE.md
+/*.md
+!/README.md
+!/LICENSE
+!/USERGUIDE.md
+
+# Ignore audit/QA/other documentation folders
+/Audit/
+/QA/
+/Docs/
+/Documentation/
+/Spec/
+/Specs/
+/DesignDocs/
+/Notes/
+
+# Misc
+*.tgz
+*.zip
+*.tar
+*.gz

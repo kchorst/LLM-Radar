@@ -1,0 +1,64 @@
+### upload /tmp/clean.md
+{
+  "ok": true,
+  "uploadOk": true,
+  "document": {
+    "ready": true,
+    "filename": "clean.md",
+    "pages": 1,
+    "chunkCount": 1,
+    "uploadedAt": "2026-06-28T20:20:00.107Z",
+    "textChars": 167,
+    "extractionQuality": {
+      "ok": true,
+      "score": 54,
+      "length": 167,
+      "words": 23,
+      "letters": 133,
+      "digits": 0,
+      "alphaRatio": 0.796,
+      "wordDensity": 13.77,
+      "weirdRatio": 0,
+      "warning": "",
+      "reasons": []
+    },
+    "warning": ""
+  },
+  "error": "",
+  "generatedAt": "2026-06-28T20:20:00.107Z"
+}
+### upload /tmp/gibberish_bad.txt
+{
+  "ok": false,
+  "uploadOk": true,
+  "document": {
+    "ready": false,
+    "filename": "gibberish_bad.txt",
+    "pages": 1,
+    "chunkCount": 0,
+    "uploadedAt": "2026-06-28T20:20:00.153Z",
+    "textChars": 7,
+    "extractionQuality": {
+      "ok": false,
+      "score": 0,
+      "length": 7,
+      "words": 0,
+      "letters": 0,
+      "digits": 0,
+      "alphaRatio": 0,
+      "wordDensity": 0,
+      "weirdRatio": 1,
+      "warning": "The file uploaded, but the readable text looks low quality (too little readable text, too few normal words, low letter ratio, low word density, too many unusual characters). Try a clean text-based PDF, TXT, or MD file.",
+      "reasons": [
+        "too little readable text",
+        "too few normal words",
+        "low letter ratio",
+        "low word density",
+        "too many unusual characters"
+      ]
+    },
+    "warning": "The file uploaded, but the readable text looks low quality (too little readable text, too few normal words, low letter ratio, low word density, too many unusual characters). Try a clean text-based PDF, TXT, or MD file."
+  },
+  "error": "The file uploaded, but the readable text looks low quality (too little readable text, too few normal words, low letter ratio, low word density, too many unusual characters). Try a clean text-based PDF, TXT, or MD file.",
+  "generatedAt": "2026-06-28T20:20:00.153Z"
+}

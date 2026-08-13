@@ -1,0 +1,5 @@
+QRCode for JavaScript vendor code
+Copyright (c) 2009 Kazuhiko Arase
+Licensed under the MIT license.
+The word "QR Code" is a registered trademark of DENSO WAVE INCORPORATED.
+Included locally so LLM Radar EZ Pair never depends on an external CDN.

@@ -1,0 +1,9 @@
+QA UPLOAD GATE 0.7.0
+Generated: 2026-06-30T14:04:11Z
+BASE=http://172.26.36.33:49321
+clean_json_upload 200 628
+clean_ready True
+clean_reasons []
+gibberish_json_upload 422 1193
+gibberish_ready False
+gibberish_reasons ['words look like gibberish', 'too much repeated token text']
