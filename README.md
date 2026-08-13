@@ -2,6 +2,10 @@
 
 LLM Radar is a phone-first local AI proof tool. The phone connects to a Local AI server running on a computer on the same Wi-Fi/LAN. The model does not run on the phone.
 
+## License
+PolyForm Noncommercial License 1.0.0
+https://polyformproject.org/licenses/noncommercial/1.0.0
+
 ## 0.7.0 focus
 - No Windows GUI in this release.
 - Keep `Start_Here.bat` and the trusted command-window heartbeat.
